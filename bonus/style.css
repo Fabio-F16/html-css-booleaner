@@ -1,0 +1,85 @@
+
+.center{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;   
+    text-align: justify;
+
+}
+
+.pattern{
+    background-image: url(../img/pattern.png);
+    background-repeat: repeat;
+    background-size: contain;
+    height: 90px;
+    background-color: lightblue;
+    position: relative;
+}
+
+.logo {
+    width: 150px;
+    position: absolute;
+    bottom: 10px;
+    left: 225px;
+}
+
+.info-articolo{
+    margin-top: -20px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.descrizione{
+    font-size: 13px;
+    margin-top: 0px;
+}
+
+.evidenziatore{
+    background-color: yellow;
+}
+
+.list{
+    position: relative;
+    left: -25px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.colonna-25{
+    background-color: rgb(40, 178, 224);
+    width: 25%;
+}
+
+.colonna-50{
+    background-color: rgb(40, 178, 224);
+}
+
+.color-blue{
+    background-color: lightblue;
+}
+
+
+h4{
+    color: grey;
+}
+
+.monitor{
+    background-image: url("../img/monitor.jpg");
+    width: 312px;
+    height: 208px;
+    color: white;
+    margin-top: -15px;
+    
+}
+
+.graph{
+    background-image: url("../img/graph.jpg");
+    width: 312px;
+    height: 208px;
+    color: white;
+    
+}
