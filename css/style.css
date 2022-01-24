@@ -1,3 +1,10 @@
+body{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;   
+    text-align: justify;
+}
+
 .pattern{
     background-image: url(../img/pattern.png);
     background-repeat: repeat;
@@ -16,23 +23,27 @@
 .info-articolo{
     margin-top: -20px;
 }
+
 a{
     text-decoration: none;
 }
+
 .descrizione{
     font-size: 13px;
     margin-top: 0px;
 }
 
-table{
-    border-collapse: collapse;
-}
 .evidenziatore{
     background-color: yellow;
 }
+
 .list{
     position: relative;
     left: -25px;
+}
+
+table{
+    border-collapse: collapse;
 }
 
 .colonna-25{
@@ -48,14 +59,17 @@ table{
     background-color: lightblue;
 }
 
+
 h4{
     color: grey;
 }
+
 .monitor{
     background-image: url("../img/monitor.jpg");
     width: 312px;
     height: 208px;
     color: white;
+    margin-top: -15px;
     
 }
 
@@ -64,4 +78,5 @@ h4{
     width: 312px;
     height: 208px;
     color: white;
+    
 }
