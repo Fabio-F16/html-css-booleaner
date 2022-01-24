@@ -47,11 +47,10 @@ table{
 }
 
 .colonna-25{
-    background-color: rgb(40, 178, 224);
     width: 25%;
 }
 
-.colonna-50{
+.color-row{
     background-color: rgb(40, 178, 224);
 }
 
