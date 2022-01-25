@@ -6,7 +6,7 @@ body{
 }
 
 .pattern{
-    background-image: url(../img/pattern.png);
+    background-image: url("../img/pattern.png");
     background-repeat: repeat;
     background-size: contain;
     height: 90px;
@@ -50,7 +50,7 @@ table{
     width: 25%;
 }
 
-.color-row{
+.color-thead{
     background-color: rgb(40, 178, 224);
 }
 
@@ -63,23 +63,24 @@ h4{
     color: grey;
 }
 
-/* .monitor{
-    background-image: url("../img/monitor.jpg");
-    width: 312px;
-    height: 208px;
-    color: white;
-    margin-top: -15px;
-    
-} */
+
 .monitor{
     position: relative;
 }
+
+.graph{
+    position: relative;
+}
+
 .didascalia{
     position: absolute;
     top: -5px;
     left: 15px;
     color: white;
 }
+
+
+/* correzione */
 
 /* .graph{
     background-image: url("../img/graph.jpg");
@@ -89,6 +90,12 @@ h4{
     
 } */
 
-.graph{
-    position: relative;
-}
+/* .monitor{
+    background-image: url("../img/monitor.jpg");
+    width: 312px;
+    height: 208px;
+    color: white;
+    margin-top: -15px;
+    
+} */
+
